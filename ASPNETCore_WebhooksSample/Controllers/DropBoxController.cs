@@ -16,8 +16,6 @@ namespace ASPNETCore_WebhooksSample.Controllers
                 return BadRequest(ModelState);
             }
 
-            //test
-
             return Ok();
         }
     }
